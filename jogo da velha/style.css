@@ -1,0 +1,70 @@
+
+body{
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display:inline-block
+}
+
+.o{
+        position: relative;
+}
+
+.o:after{
+    content: "\1F3A4";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+content: "\1F3A7";
+font-size: 50px;
+line-height: 100px;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+#restartButton{
+
+    color: blue;
+    padding: 10px;
+    margin: 5px;
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredondar os cantos do botão */
+
+
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+#restartButton:hover {
+    background-color: #00796b; /* Cor de fundo quando o mouse está sobre o botão */
+}
+
+/* Efeito ao clicar no botão */
+#restartButton:active {
+    background-color: #004d40; /* Cor de fundo quando o botão está pressionado */
+}
+
